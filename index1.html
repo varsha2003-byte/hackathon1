@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CoBuild - Building Your Future</title>
+  <link rel="stylesheet" href="stylenew.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <i data-lucide="building-2" class="logo-icon"></i>
+        <span>CoBuild</span>
+      </div>
+      <div class="nav-links">
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a href="#community">Community</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#map">Map</a>
+      </div>
+      <button class="mobile-menu-btn">
+        <i data-lucide="menu"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>We're Building Your Future</h1>
+      <p>Take a step towards the future of construction with CoBuild</p>
+      <button class="cta-button" id="openAIChat">
+        <i data-lucide="bot" class="mr-2"></i>
+        Chat with AI Assistant
+      </button>
+    </div>
+  </section>
+
+  <!-- AI Chat Interface -->
+  <div class="chat-container" id="chatContainer">
+    <div class="chat-header">
+      <div class="chat-title">
+        <i data-lucide="bot" class="chat-bot-icon"></i>
+        <span>CoBuild AI Assistant</span>
+      </div>
+      <button class="chat-close" id="closeChat">
+        <i data-lucide="x"></i>
+      </button>
+    </div>
+    <div class="chat-messages" id="chatMessages">
+      <div class="message bot">
+        <i data-lucide="bot" class="message-avatar"></i>
+        <div class="message-content">
+          Hello! I'm your CoBuild AI assistant. How can I help you with your construction project today?
+        </div>
+      </div>
+    </div>
+    <div class="chat-input">
+      <input type="text" id="userInput" placeholder="Type your message..." />
+      <button id="sendMessage">
+        <i data-lucide="send"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <div class="container">
+      <div class="section-header">
+        <h2>Our Services</h2>
+        <p>Duis aute irure dolor in reprehenderit voluptate velit esse cillum fugiat pariature occaecat cupidatat proident culpa.</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <i data-lucide="hard-hat"></i>
+          </div>
+          <h3>Fast Operations</h3>
+          <p>Expert construction management for quick and efficient project delivery.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <i data-lucide="hammer"></i>
+          </div>
+          <h3>Renovation</h3>
+          <p>Transform your space with our professional renovation services.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <i data-lucide="building-2"></i>
+          </div>
+          <h3>Consultation</h3>
+          <p>Expert advice to guide your construction and renovation projects.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <i data-lucide="ruler"></i>
+          </div>
+          <h3>Architecture</h3>
+          <p>Innovative architectural designs that inspire and endure.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <i data-lucide="wrench"></i>
+          </div>
+          <h3>Maintenance</h3>
+          <p>Comprehensive maintenance services to protect your investment.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <i data-lucide="shield"></i>
+          </div>
+          <h3>Safety Planning</h3>
+          <p>Ensuring workplace safety with comprehensive planning and protocols.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Community Section -->
+  <section id="community" class="community">
+    <div class="container">
+      <div class="section-header">
+        <h2>Our Community</h2>
+        <p>Join our growing community of satisfied clients and partners.</p>
+      </div>
+
+      <div class="carousel">
+        <button class="carousel-btn prev">
+          <i data-lucide="chevron-left"></i>
+        </button>
+        
+        <div class="carousel-container">
+          <div class="carousel-track">
+            <div class="carousel-slide">
+              <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Community Event 1">
+              <h3>Community Events</h3>
+              <p>Regular meetups and workshops for our clients and partners.</p>
+            </div>
+            <div class="carousel-slide">
+              <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Project Showcase">
+              <h3>Project Showcase</h3>
+              <p>Celebrating our successful projects and partnerships.</p>
+            </div>
+            <div class="carousel-slide">
+              <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Team Building">
+              <h3>Team Building</h3>
+              <p>Building strong relationships within our community.</p>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-btn next">
+          <i data-lucide="chevron-right"></i>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <div class="logo">
+            <i data-lucide="building-2" class="logo-icon"></i>
+            <span>CoBuild</span>
+          </div>
+          <p>Building dreams into reality with innovation and excellence.</p>
+        </div>
+
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#community">Community</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Contact Us</h3>
+          <ul>
+            <li><i data-lucide="map-pin"></i> 123 Construction Ave</li>
+            <li><i data-lucide="phone"></i> (555) 123-4567</li>
+            <li><i data-lucide="mail"></i> info@cobuild.com</li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Follow Us</h3>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+            <a href="#" aria-label="Twitter"><i data-lucide="twitter"></i></a>
+            <a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+            <a href="#" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2024 CoBuild. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Initialize Lucide icons
+    lucide.createIcons();
+
+    // Mobile menu functionality
+    const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+    const navLinks = document.querySelector('.nav-links');
+
+    mobileMenuBtn.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+
+    // Smooth scroll for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+
+    // Carousel functionality
+    const track = document.querySelector('.carousel-track');
+    const slides = Array.from(track.children);
+    const nextButton = document.querySelector('.carousel-btn.next');
+    const prevButton = document.querySelector('.carousel-btn.prev');
+    let currentIndex = 0;
+
+    function updateSlidePosition() {
+      track.style.transform = `translateX(-${currentIndex * 100}%)`;
+    }
+
+    nextButton.addEventListener('click', () => {
+      currentIndex = (currentIndex + 1) % slides.length;
+      updateSlidePosition();
+    });
+
+    prevButton.addEventListener('click', () => {
+      currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+      updateSlidePosition();
+    });
+
+    // Auto-advance carousel
+    setInterval(() => {
+      currentIndex = (currentIndex + 1) % slides.length;
+      updateSlidePosition();
+    }, 5000);
+
+    // Chat functionality
+    const chatContainer = document.getElementById('chatContainer');
+    const openChatBtn = document.getElementById('openAIChat');
+    const closeChatBtn = document.getElementById('closeChat');
+    const userInput = document.getElementById('userInput');
+    const sendMessageBtn = document.getElementById('sendMessage');
+    const chatMessages = document.getElementById('chatMessages');
+
+    // Sample responses for demo
+    const botResponses = {
+      default: "I understand you're interested in our construction services. Could you please provide more details about your project?",
+      greetings: "Hello! How can I assist you with your construction project today?",
+      cost: "Project costs vary based on several factors. Could you tell me more about your project's scope and requirements?",
+      timeline: "Typical project timelines range from 3-12 months depending on scope. What's your target completion date?",
+    };
+
+    function addMessage(content, isBot = false) {
+      const messageDiv = document.createElement('div');
+      messageDiv.className = `message ${isBot ? 'bot' : 'user'}`;
+      
+      if (isBot) {
+        const avatar = document.createElement('i');
+        avatar.setAttribute('data-lucide', 'bot');
+        avatar.className = 'message-avatar';
+        messageDiv.appendChild(avatar);
+      }
+
+      const contentDiv = document.createElement('div');
+      contentDiv.className = 'message-content';
+      contentDiv.textContent = content;
+      messageDiv.appendChild(contentDiv);
+
+      chatMessages.appendChild(messageDiv);
+      chatMessages.scrollTop = chatMessages.scrollHeight;
+      lucide.createIcons();
+    }
+
+    function getBotResponse(message) {
+      const lowerMessage = message.toLowerCase();
+      if (lowerMessage.includes('hello') || lowerMessage.includes('hi')) {
+        return botResponses.greetings;
+      } else if (lowerMessage.includes('cost') || lowerMessage.includes('price')) {
+        return botResponses.cost;
+      } else if (lowerMessage.includes('time') || lowerMessage.includes('long')) {
+        return botResponses.timeline;
+      }
+      return botResponses.default;
+    }
+
+    function handleUserMessage() {
+      const message = userInput.value.trim();
+      if (message) {
+        addMessage(message, false);
+        userInput.value = '';
+        
+        // Simulate bot typing
+        setTimeout(() => {
+          const response = getBotResponse(message);
+          addMessage(response, true);
+        }, 1000);
+      }
+    }
+
+    openChatBtn.addEventListener('click', () => {
+      chatContainer.classList.add('active');
+    });
+
+    closeChatBtn.addEventListener('click', () => {
+      chatContainer.classList.remove('active');
+    });
+
+    sendMessageBtn.addEventListener('click', handleUserMessage);
+
+    userInput.addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') {
+        handleUserMessage();
+      }
+    });
+  </script>
+</body>
+</html>
